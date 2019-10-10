@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import RoboList from '../../components/RoboList';
 import SearchInput from '../../components/SearchInput';
+import Scroll from '../../components/Scroll';
 import { Container } from './style';
 
 class Main extends Component{
@@ -31,7 +32,9 @@ class Main extends Component{
     return (
       <Container>
         <SearchInput fieldvalue={searchField} searchInput={this.onSearchInput} />
-        <RoboList robots={robotFilter}/>
+        <Scroll>
+          <RoboList robots={robotFilter}/>
+        </Scroll>
       </Container>
     );
   }
