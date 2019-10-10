@@ -12,4 +12,3 @@
   <li>Properties</li>
 </ul>
 
-<img src="assets/imgs/img1.png" width="800" />
