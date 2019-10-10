@@ -11,4 +11,3 @@
   <li>State</li>
   <li>Properties</li>
 </ul>
-
